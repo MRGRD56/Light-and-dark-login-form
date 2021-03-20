@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body class="body-dark">
+    <div>
+      <button class="switch-mode-button">
+        <div class="material-icons" id="mode-icon">
+          dark_mode
+        </div>
+        <div style="margin-left: 10px;" id="mode-text">
+          Switch to light mode
+        </div>
+      </button>
+    </div>
+    <div class="login-form-wrapper">
+      <form class="login-form">
+        <h1 class="login-form-header">LOGIN</h1>
+        <input type="text" placeholder="Login" class="login-form-input" />
+        <input
+          type="password"
+          placeholder="Password"
+          class="login-form-input"
+        />
+        <button type="submit" class="login-form-submit-button">
+          Log in
+        </button>
+      </form>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
